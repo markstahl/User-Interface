@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-	font-family: 'Titillium Web', sans-serif
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,49 +63,112 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-.container {
-	width: 800px;
-	margin: auto;
+/* Your code starts here! */
+body {
+	margin: 0 4em;
+}
+section {
+	margin: 2em 0;
+	width: 100%;
 }
 
-nav {
-	text-align: center;
+.h-right {
+	text-align: right;
+}
+
+.inline {
+	display: inline;
+}
+.inline-block {
 	display: inline-block;
-	word-spacing: 70px;
-	padding: 5%;
+}
+.block {
+	display: block;
+}
+
+.mid {
+	columns: 2;
+	text-align: right;
+	text-align: center;
+	margin: 3em 0;
+	margin-bottom: 4.5em;
+}
+
+.innovation {
+	margin: 2.5em 0;
+}
+
+.halves {
+	width: 49.5%;
+}
+.thirds {
+	width: 33%;
 }
 
 a {
 	text-decoration: none;
-	color: grey;
-	opacity: 0.5;
+	color: black;
+}
+
+.header {
+	width: 100%;
+	text-
+}
+nav {
+	height: 76px;
+	line-height: 76px;
+	white-space: nowrap;
+	text-align: justify;
+	word-spacing: 110px;
+}
+nav a {
+	color: gray;
+	padding-right: 60px;
+}
+nav img {
+	padding: 20px 0;
+}
+nav::after {
+	width: 100%;
 }
 
 .logo {
-	position: fixed;
-	margin-left: 30px;
-	margin-top:  30px;
-	font-family: 'Bangers', cursive;
-}
-
-.pic {
 	float: right;
-	vertical-align: top;
-	position: absolute;
-	right: 10px;
 }
 
-.info h1 {
-	margin: 20px;
-	display: block;
-	width: 45%;
+h1 {
+	font-size: 5em;
+	transform: scale(1, 0.9);
 }
 
-.title {
-	display: inline;
+button {
+	border: 1.5px;
+	border-style: solid;
+	border-color: black;
+	width: 160px;
+	padding: 5px 15px;
+	font-size: 1.1em;
+	background-color: white;
 }
 
-.big {
-	font-size: 70px;
+.middle-img {
+	width: 100%;
 }
-/* Your code starts here! */
+
+.contacts {
+	margin: 1em 0;
+}
+
+.top-text {
+	margin-right: 0.75em;
+}
+
+
+p {
+	transform: scale(1, 1.1);
+	margin: 1.25em 0;
+}
+
+.copyright {
+	text-align: center;
+}
